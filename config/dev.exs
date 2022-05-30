@@ -3,7 +3,7 @@ import Config
 # Configure your database
 config :discuss, Discuss.Repo,
   username: "postgres",
-  password: "postgres",
+  password: "Shu4ju4ku4",
   hostname: "localhost",
   database: "discuss_dev",
   stacktrace: true,
