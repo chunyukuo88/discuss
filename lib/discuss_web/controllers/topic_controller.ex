@@ -4,8 +4,8 @@ defmodule DiscussWeb.TopicController do
   alias DiscussWeb.Topic
 
   def index(conn, _params) do
-    topics = Repo.all(Topic) #in iex, don't forget the `Web`:  Discuss.Repo.all(DiscussWeb.Topic)
-    render conn, "index.html.eex", topics: topics
+    topics = Repo.all(Topic) #to emulate in iex, don't forget the `Web`:  Discuss.Repo.all(DiscussWeb.Topic)
+    render conn, "index.html", topics: topics
   end
 
   def new(conn, _params) do
