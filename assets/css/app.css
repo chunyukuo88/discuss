@@ -1,6 +1,13 @@
 /* This file is for your main application CSS */
 @import "./phoenix.css";
 
+.form-group {
+  color: orange;
+  margin-bottom: 1.5625rem;
+  position: relative;
+  text-transform: capitalize;
+}
+
 /* Alerts and form errors used by phx.new */
 .alert {
   padding: 15px;
