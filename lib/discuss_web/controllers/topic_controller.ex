@@ -22,7 +22,7 @@ defmodule DiscussWeb.TopicController do
     case Repo.update(changeset) do
       {:ok, _topic} ->
         conn
-        |> put_flash(:info, "moistly done! You updated a thing.")
+        |> put_flash(:info, "moistly done! You updated the topic called '#{_topic.title}'. The ID of the topic you edited is #{_topic.id}")
         |> redirect(to: Routes.topic_path(conn, :index))
       {:error, changeset} ->
         render conn, "edit.html", changeset: changeset, topic: old_topic
