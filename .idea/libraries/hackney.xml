@@ -2,6 +2,8 @@
   <library name="hackney" type="mix">
     <CLASSES />
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/deps/hackney/src" />
+    </SOURCES>
   </library>
 </component>

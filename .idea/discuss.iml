@@ -113,5 +113,8 @@
     <orderEntry type="library" name="credo" level="project" />
     <orderEntry type="library" name="inch_ex" level="project" />
     <orderEntry type="library" name="ueberauth_github" level="project" />
+    <orderEntry type="library" name="oauth2" level="project" />
+    <orderEntry type="library" name="earmark" level="project" />
+    <orderEntry type="library" name="poison" level="project" />
   </component>
 </module>
