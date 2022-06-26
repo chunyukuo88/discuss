@@ -39,6 +39,12 @@ config :esbuild,
     env: %{"NODE_PATH" => Path.expand("../deps", __DIR__)}
   ]
 
+# I added this.
+config :ueberauth, Ueberauth,
+   providers: [
+     github: { Ueberauth.Strategy.Github, [ opt1: "value", opts2: "value" ] }
+   ]
+
 # Configures Elixir's Logger
 config :logger, :console,
   format: "$time $metadata[$level] $message\n",
